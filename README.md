@@ -53,15 +53,27 @@ node index.js
 
 Para cadastrar um item, escolha a opção **1**. O sistema solicitará o nome, a categoria (baseada em uma lista fixa), a quantidade e o preço.
 
+<p align="center">
+ <img width="400" height="625" alt="image" src="https://github.com/user-attachments/assets/461a6281-b0f1-4238-8c14-87d1bee687cc" />
+</p>
+
 > *Dica: O ID é gerado automaticamente pelo sistema.*
 
 ### 2. Listar e Ordenar Produtos
 
 Ao escolher a opção **2**, você verá todos os produtos. O sistema permite ordenar a visualização por Nome, Preço ou Quantidade para facilitar a análise.
 
+<p align="center">
+ <img width="724" height="463" alt="image" src="https://github.com/user-attachments/assets/5d534369-bb37-4507-acc0-9d3611e8d5f7" />
+</p>
+
 ### 3. Atualizar Informações
 
 Caso precise alterar um dado, escolha a opção **3** e informe o ID do produto. Você pode escolher exatamente qual campo deseja alterar (apenas o nome, ou apenas o preço, etc).
+
+<p align="center">
+<img width="430" height="492" alt="image" src="https://github.com/user-attachments/assets/ac36d796-fdac-46d6-b6db-4f073e538ce3" />
+</p>
 
 ### 4. Excluir Produto
 
