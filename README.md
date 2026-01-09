@@ -2,6 +2,10 @@
 
 O **AgilStore** é uma solução robusta desenvolvida em Node.js para automatizar o controle de estoque de lojas de eletrônicos. Este projeto foi migrado de uma base Java para JavaScript, aplicando conceitos avançados de arquitetura de software para garantir escalabilidade, manutenção facilitada e persistência de dados.
 
+<p align="center">
+<img width="413" height="255" alt="image" src="https://github.com/user-attachments/assets/068d9ff0-41c8-4a9c-abba-7cb1aa03ac62" />
+</p>
+
 ## 🚀 Tecnologias Utilizadas
 
 * **Node.js**: Ambiente de execução para o JavaScript no lado do servidor.
@@ -79,12 +83,59 @@ Caso precise alterar um dado, escolha a opção **3** e informe o ID do produto.
 
 A opção **4** permite remover itens do inventário. Para sua segurança, o sistema sempre solicitará uma confirmação (Sim/Não) antes de apagar o dado.
 
+<p align="center">
+<img width="572" height="352" alt="image" src="https://github.com/user-attachments/assets/17ea40e4-eaff-4de8-a4cd-3329427f0ca7" />
+</p>
+
+<p align="center">
+ <img width="675" height="449" alt="image" src="https://github.com/user-attachments/assets/6750d3d5-effd-4d3c-9a18-f4050717dfcc" />
+</p>
+
 ### 5. Buscar Produtos
 
 Você pode localizar rapidamente um item pelo seu **ID** ou por uma **parte do nome** usando a opção **5**.
+
+<p align="center">
+<img width="729" height="457" alt="image" src="https://github.com/user-attachments/assets/3515c0b3-c474-4ce5-a959-db7c9fa66eaf" />
+</p>
+
 
 ---
 
 ## 📁 Persistência de Dados
 
 O sistema salva automaticamente todas as alterações em um arquivo chamado `database.json` dentro da pasta `src/data/`. Isso significa que, mesmo se você fechar o programa ou desligar o computador, seus dados estarão salvos.
+
+```bash
+[
+  {
+    "id": 2,
+    "nome": "Notebook lenovo",
+    "categoria": "COMPUTADORES",
+    "quantidade": 365,
+    "preco": 2000
+  },
+  {
+    "id": 3,
+    "nome": "Samsung A14 5G",
+    "categoria": "SMARTPHONES",
+    "quantidade": 504,
+    "preco": 1200
+  }
+]
+
+```
+
+## Desenvolvedor 
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/55b10cab-bbaf-4dd1-bcbc-2d9752e37cf5" width="100px;" style="border-radius: 50%;" alt="Foto do Desenvolvedor"/>
+  <br />
+  <sub><b>Thiago De Sena</b></sub>
+  <br />
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thiago-de-sena-developer/)
+</div>
+
+
+---
